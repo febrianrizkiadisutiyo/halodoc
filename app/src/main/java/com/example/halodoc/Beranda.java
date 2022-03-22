@@ -32,4 +32,9 @@ public class Beranda extends AppCompatActivity {
         Intent intent = new Intent(this,Profil.class);
         startActivity(intent);
     }
+
+    public void artikel(View view) {
+        Intent intent = new Intent(this,Artikel.class);
+        startActivity(intent);
+    }
 }

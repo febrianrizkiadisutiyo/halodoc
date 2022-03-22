@@ -23,6 +23,7 @@
         <activity android:name=".Pesan"></activity>
         <activity android:name=".Lainnya"></activity>
         <activity android:name=".Profil"></activity>
+        <activity android:name=".Artikel"></activity>
     </application>
 
 </manifest>

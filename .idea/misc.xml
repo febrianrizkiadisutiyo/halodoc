@@ -4,9 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Febrian Rizky/AndroidStudioProjects/halodoc/app/src/main/res/drawable/ic_search.xml" value="0.258" />
+        <entry key="..\:/Users/Febrian Rizky/AndroidStudioProjects/halodoc/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Febrian Rizky/AndroidStudioProjects/halodoc/app/src/main/res/layout/akun.xml" value="0.264" />
-        <entry key="..\:/Users/Febrian Rizky/AndroidStudioProjects/halodoc/app/src/main/res/layout/bar_akun.xml" value="0.4" />
-        <entry key="..\:/Users/Febrian Rizky/AndroidStudioProjects/halodoc/app/src/main/res/layout/bar_beranda.xml" value="0.4" />
+        <entry key="..\:/Users/Febrian Rizky/AndroidStudioProjects/halodoc/app/src/main/res/layout/artikel.xml" value="0.264" />
+        <entry key="..\:/Users/Febrian Rizky/AndroidStudioProjects/halodoc/app/src/main/res/layout/bar_akun.xml" value="0.264" />
+        <entry key="..\:/Users/Febrian Rizky/AndroidStudioProjects/halodoc/app/src/main/res/layout/bar_artikel.xml" value="0.264" />
+        <entry key="..\:/Users/Febrian Rizky/AndroidStudioProjects/halodoc/app/src/main/res/layout/bar_beranda.xml" value="0.264" />
+        <entry key="..\:/Users/Febrian Rizky/AndroidStudioProjects/halodoc/app/src/main/res/layout/bar_inbox.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Febrian Rizky/AndroidStudioProjects/halodoc/app/src/main/res/layout/bar_lainnya.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Febrian Rizky/AndroidStudioProjects/halodoc/app/src/main/res/layout/bar_transaksi.xml" value="0.264" />
         <entry key="..\:/Users/Febrian Rizky/AndroidStudioProjects/halodoc/app/src/main/res/layout/barinbox.xml" value="0.25416666666666665" />

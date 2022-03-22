@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/tampilansearch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/bar_artikel" />
+
+    <ImageView
+        android:id="@+id/puasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/barArtikel"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/puasa" />
+    <ImageView
+        android:id="@+id/makanantidaksehat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/puasa"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/makanantidaksehat" />
+    <ImageView
+        android:id="@+id/olahraga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/makanantidaksehat"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/olahraga" />
+    <ImageView
+        android:id="@+id/kecantikan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/olahraga"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/kecantikan" />
+
+</RelativeLayout>

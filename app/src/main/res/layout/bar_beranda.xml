@@ -12,10 +12,11 @@
 
         <ImageView
             android:id="@+id/profil"
-            android:onClick="profil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/profil" />
+            android:background="@drawable/profil"
+            android:onClick="profil"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <ImageView
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
