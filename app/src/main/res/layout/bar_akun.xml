@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/bartransaksi"
+    android:background="#E7174E"
+    android:layout_width="match_parent"
+    android:layout_height="132dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profil1"
+            android:background="@drawable/profil"
+            android:layout_width="90dp"
+            android:layout_height="90dp"/>
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/profil1"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:text="Febrian Rizki Adi Sutiyo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/nohp"
+            android:layout_marginTop="2dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/profil1"
+            android:layout_below="@+id/nama"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="0822-6866-5453"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</Toolbar>

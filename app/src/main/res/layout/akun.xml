@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/tampilanprofil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/bar_akun" />
+
+    <ImageView
+        android:id="@+id/infoakun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bartransaksi"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/akun" />
+
+    <ImageView
+        android:id="@+id/aktivasi"
+
+        android:layout_below="@+id/infoakun"
+        android:background="@drawable/aktivasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/halodoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aktivasi"
+        android:background="@drawable/halodoc" />
+
+    <ImageView
+        android:id="@+id/kembali"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/halodoc"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/kembali"
+        android:onClick="kembali"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/barberanda"
+    android:background="#E7174E"
+    android:layout_height="72dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profil"
+            android:onClick="profil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profil" />
+
+        <ImageView
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/profil"
+            android:background="@drawable/pencarian"
+            android:textSize="14dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+    </RelativeLayout>
+
+</Toolbar>

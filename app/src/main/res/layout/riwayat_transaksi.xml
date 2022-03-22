@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/tampilan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/bar_transaksi" />
+
+    <ImageView
+        android:id="@+id/info"
+        android:background="@drawable/info"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/bartransaksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/btn_transaksi1"
+        android:onClick="beranda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="266dp"
+        android:background="@drawable/beranda"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_transaksi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="266dp"
+        android:layout_toRightOf="@+id/btn_transaksi1"
+        android:background="@drawable/r_transaksi1"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_transaksi3"
+        android:onClick="pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="266dp"
+        android:layout_toRightOf="@+id/btn_transaksi2"
+        android:background="@drawable/pesan"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_transaksi4"
+        android:onClick="lainnya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="266dp"
+        android:layout_toRightOf="@+id/btn_transaksi3"
+        android:background="@drawable/lainnya"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+
+
+</RelativeLayout>

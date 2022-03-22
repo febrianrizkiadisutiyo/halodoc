@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/tampilan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/bar_lainnya" />
+
+    <ImageView
+        android:id="@+id/pengaturanakun"
+        android:layout_below="@+id/bar_lainnya"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/pengaturanakun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/metodepembayaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pengaturanakun"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/metodepembayaran" />
+    <ImageView
+        android:id="@+id/pengaturanaplikasi"
+        android:layout_below="@+id/metodepembayaran"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/pengaturan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/bantuan"
+        android:layout_below="@+id/pengaturanaplikasi"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bantuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/btn_lainnya1"
+        android:onClick="beranda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bantuan"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="163dp"
+        android:background="@drawable/beranda"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_lainnya2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bantuan"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="163dp"
+        android:layout_toRightOf="@+id/btn_lainnya1"
+        android:background="@drawable/r_transaksi"
+        android:onClick="riwayattransaksi"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_lainnya3"
+        android:onClick="pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bantuan"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="163dp"
+        android:layout_toRightOf="@+id/btn_lainnya2"
+        android:background="@drawable/pesan"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_lainnya4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bantuan"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="163dp"
+        android:layout_toRightOf="@+id/btn_lainnya3"
+        android:background="@drawable/lainnya1"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/tampilan"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/bar_inbox" />
+
+    <ImageView
+        android:id="@+id/chat"
+        android:layout_below="@+id/barinbox"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/ulasan"
+        android:layout_below="@+id/chat"
+        android:background="@drawable/ulasan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iklan"
+        android:layout_below="@+id/ulasan"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="25dp"
+        android:background="@drawable/iklan"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/btn_inbox1"
+        android:onClick="beranda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iklan"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="162dp"
+        android:background="@drawable/beranda"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_inbox2"
+        android:onClick="riwayattransaksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iklan"
+        android:layout_toRightOf="@+id/btn_inbox1"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="162dp"
+        android:background="@drawable/r_transaksi"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_inbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iklan"
+        android:layout_toRightOf="@+id/btn_inbox2"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="162dp"
+        android:background="@drawable/pesan1"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_inbox4"
+        android:onClick="lainnya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iklan"
+        android:layout_toRightOf="@+id/btn_inbox3"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="162dp"
+        android:background="@drawable/lainnya"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+</RelativeLayout>

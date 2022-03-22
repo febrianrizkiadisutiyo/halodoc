@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bar_lainnya"
+    android:background="#E7174E"
+    android:layout_width="match_parent"
+    android:layout_height="72dp">
+
+    <TextView
+        android:text="Lainnya"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:drawableStart="@drawable/ic_back"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</Toolbar>

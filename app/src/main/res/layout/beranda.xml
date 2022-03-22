@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/tampilan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/bar_beranda" />
+
+    <TextView
+        android:id="@+id/artikel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/barberanda"
+        android:layout_marginTop="25dp"
+        android:paddingStart="20dp"
+        android:text="Baca 100+ Artikel Baru"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+
+        android:id="@+id/btn_lihatsemua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/barberanda"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/lihatsemua"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/makanansehat"
+        android:layout_below="@+id/artikel"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/makanansehat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/perawatandiri"
+        android:layout_below="@+id/artikel"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_toRightOf="@+id/makanansehat"
+        android:background="@drawable/perawatandiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/pelayanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/makanansehat"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:text="Pelayanan"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/tanyadokter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pelayanan"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/chatdengandokter" />
+
+    <ImageView
+        android:id="@+id/janjitemudokter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pelayanan"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@+id/tanyadokter"
+        android:background="@drawable/janjidengandokter" />
+
+    <ImageView
+        android:id="@+id/medislab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pelayanan"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@+id/janjitemudokter"
+        android:background="@drawable/medisdanlab" />
+
+    <ImageView
+        android:id="@+id/pesanobat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pelayanan"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="28dp"
+        android:layout_toRightOf="@+id/medislab"
+        android:background="@drawable/pesanobat" />
+
+
+    <ImageView
+        android:id="@+id/produkcovid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tanyadokter"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="25dp"
+        android:background="@drawable/produkcovid" />
+
+    <ImageView
+        android:id="@+id/tescovid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tanyadokter"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@+id/produkcovid"
+        android:background="@drawable/tescovid" />
+
+    <ImageView
+        android:id="@+id/vaksinasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/medislab"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="28dp"
+        android:layout_toRightOf="@+id/tescovid"
+        android:background="@drawable/vaksinasicovid" />
+    <ImageView
+        android:id="@+id/l_semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/medislab"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="28dp"
+        android:layout_toRightOf="@+id/vaksinasi"
+        android:background="@drawable/lihatsemua2" />
+
+    <TextView
+        android:id="@+id/kategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/produkcovid"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:text="Kategori Populer"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/pakethemat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kategori"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/pakethemat" />
+
+    <ImageView
+        android:id="@+id/covid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kategori"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/pakethemat"
+        android:background="@drawable/covid19" />
+
+    <ImageView
+        android:id="@+id/vitaminsuplemen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kategori"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@+id/covid"
+        android:background="@drawable/vitaminsuplemen" />
+
+    <ImageButton
+        android:id="@+id/btn_beranda1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pakethemat"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/beranda1"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_beranda2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pakethemat"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="33dp"
+        android:layout_toRightOf="@+id/btn_beranda1"
+        android:background="@drawable/r_transaksi"
+        android:onClick="riwayattransaksi"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_beranda3"
+        android:onClick="pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pakethemat"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@+id/btn_beranda2"
+        android:background="@drawable/pesan"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_beranda4"
+        android:onClick="lainnya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pakethemat"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="33dp"
+        android:layout_toRightOf="@+id/btn_beranda3"
+        android:background="@drawable/lainnya"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+</RelativeLayout>
